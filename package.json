@@ -5,7 +5,9 @@
   "main": "plugin.js",
   "types": "plugin.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "npm run bump:changelog",
+    "bump:changelog": "title=\"## Upcoming changes\";date=`date +%Y-%m-%d`;sed -i \"s/${title}/${title}\\n\\n## Version ${npm_package_version} - ${date}/\" CHANGELOG.md"
   },
   "repository": {
     "type": "git",
