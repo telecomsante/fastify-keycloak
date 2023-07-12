@@ -1,6 +1,6 @@
-const KeycloakConnect = require('keycloak-connect')
-const BearerStore = require('keycloak-connect/stores/bearer-store');
-const SessionStore = require('keycloak-connect/stores/session-store');
+const KeycloakConnect = require('keycloak-connect-hoppen')
+const BearerStore = require('keycloak-connect-hoppen/stores/bearer-store');
+const SessionStore = require('keycloak-connect-hoppen/stores/session-store');
 const CookieStore = require('./store/cookie')
 
 class Keycloak extends KeycloakConnect {

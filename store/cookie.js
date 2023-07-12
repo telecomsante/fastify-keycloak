@@ -1,4 +1,4 @@
-const CookieStore = require('keycloak-connect/stores/cookie-store')
+const CookieStore = require('keycloak-connect-hoppen/stores/cookie-store')
 
 let store = (grant) => {
   return (request, reply) => {
