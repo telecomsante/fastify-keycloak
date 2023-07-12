@@ -1,6 +1,6 @@
 {
   "name": "fastify-keycloak-hoppen",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Fastify Keycloak connect integration.",
   "main": "plugin.js",
   "types": "plugin.d.ts",
