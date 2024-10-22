@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/ekoeryanto/fastify-keycloak#readme",
   "dependencies": {
-    "fastify-plugin": "^4.1.0"
+    "fastify-plugin": "^5.0.1"
   },
   "peerDependencies": {
     "fastify": "^5.0.0",

@@ -1,6 +1,7 @@
 # Changelog fastify-plugin
 
 ## Upcoming changes
+- [FEA] [FLR] upgrade to fastify-plugin 5.0.1
 - [FEA] [FLR] upgrade to fastify 5.0.0
 
 ## Version 0.3.1 - 2023-07-12
